@@ -8,5 +8,15 @@ def swap():
     3. El valor de x después del intercambio
     4. El valor de y después del intercambio
     """
-    x = 10
-    y = 20
+
+    x= 20
+    y= 10
+    x1= x/2
+    y1= y*2
+    x2= x
+    y2= y
+    print(x1)
+    print(y1)
+    print(x2)
+    print(y2)
+swap()

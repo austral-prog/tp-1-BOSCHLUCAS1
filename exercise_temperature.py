@@ -7,3 +7,8 @@ def temperature():
     2. La temperatura original en Celsius
     """
     celsius = 25
+celsius=25
+farenheit = celsius * 1.8 + 32
+print(farenheit)
+print(celsius)
+temperature()
