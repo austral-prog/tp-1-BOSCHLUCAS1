@@ -8,15 +8,16 @@ def price():
     3. El monto de la propina (10% del subtotal)
     4. El precio final (subtotal + propina)
     """
+    
+    precio_base = 100
 
-    preciobase= 100
-    impuesto= preciobase * 0.21
-    subtotal= preciobase + impuesto
-    propina= subtotal *0.1
-    preciofinal= subtotal + propina
-    print(preciofinal)
-    print(subtotal)
-    print(preciobase)
+    impuesto = precio_base * 0.21
+    subtotal = precio_base + impuesto
+    propina = subtotal * 0.10
+    total = subtotal + propina
+
     print(impuesto)
+    print(subtotal)
     print(propina)
+    print(total)
 price()
